@@ -9,10 +9,7 @@
 - low cost as it is made by the complementary metal oxide semiconductor technology
 - processing speed is about **8MHz to 50 MHz**
 
-![Microcontroller](img/EmbeddedSystem_MicroController_RaspBerryPi_01.png)
-
 ![8051](img/Microcontroller-Block-Diagr.gif)
-
 
 ### Microprocessor
 - has only a CPU inside them in one or few integrated circuit
@@ -22,8 +19,25 @@
 - processing speed is above **1GHz**
 - power comsumption is high because of absence of power saving mode and also it connects to many external components
 
-![Microprocessor](img/Block-Diagram-of-a-Computer.webp)
-
 ![Microprocessor](img/Microprocessor.gif)
+
+## Part 2: Myduino Board Anatomy
+![Myduino](img/myduino.png)
+
+- Arduino Nano
+- NodeMCU
+- Wireless radio
+- Bluetooth communication
+- Variable resistor
+- Liquid crystal display
+- Temperature and humidity sensor
+- Light sensor
+- Real time clock
+- Switch
+- Light emmiting diode
+- Temperature sensor
+- Uno footprint prototyping area
+- RGB LED
+- Buzzer
 
 
