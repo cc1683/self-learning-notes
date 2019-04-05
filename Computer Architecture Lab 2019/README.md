@@ -84,5 +84,59 @@
 
   To generate alarm or tone audio to play melody.
 
+## Part 3: Personal Computer Hardware Anatomy
+
+![PC Hardware](img/pc-hardware.png)
+
+### Bus
+![Computer Bus](img/pci-diagram.gif)
+
+Connect components to the computer's processor. Internal bus carries the data within the motherboard while external bus carries the data to peripherals and other devices that attach to the motherboard. There are three types of bus called: Address bus, Data bus and Control bus. 
+
+**Address Bus**
+  - The component pass memory address to one another over the address bus.
+
+**Data Bus**
+  - Carry data and transferred between peripherals, memory and the CPU.
+
+**Control Bus**
+  - Used to send out the signal to coordinate and manage the activities of the motherboard components. 
+
+**Frontside Bus, Backside Bus and PCI Cards**
+  - The frontside bus is a physical connection that actually connects the processor to most of the other components in the computer, including main memory (RAM), hard drives and the PCI slots. The backside bus is a separate connection between the processor and the Level 2 cache. This bus operates at a faster speed than the frontside bus, usually at the same speed as the processor, so all that caching works as efficiently as possible.
+
+### PCI
+PCI is the acronym for Peripheral Component Interconnect, it is a local computer bus to attaching hardware devices in computer. It  allows you to insert expansion cards into your computer. These can come in the form of sound cards, RAID cards, SSDs, graphics cards, Coprocessors, and several other functional computer parts. 
+
+### GPU
+A GPU is a specialized electronic circuit designed to rapidly manipulate and alter memory to accelerate the creation of images in a frame buffer intended for output to a display device. The GPU’s advanced capabilities were originally used primarily for 3D game rendering. But now those capabilities are being harnessed more broadly to accelerate computational workloads in areas such as financial modeling, cutting-edge scientific research and oil and gas exploration.
+
+**GPU VS Graphic card?**
+  - GPU is a chip where as graphics card is GPU + its circuit board + cooler. What a GPU does is it reduce load on CPU by processing the graphical content. Basically by adding a graphics card you are adding another processor dedicated for graphical purposes.
+
+### Memory
+
+**RAM**
+  - Random-access memory is a form of computer data storage that stores data and machine code currently being used. A random-access memory device allows data items to be read or written in almost the same amount of time irrespective of the physical location of data inside the memory.
+
+**DDR4**
+  - [DDR4 Memory](https://www.lifewire.com/ddr4-memory-833028)
+
+**Cache Memory**
+  - [Difference between L1 cache and L2 cache](https://stackoverflow.com/questions/3699582/what-is-the-difference-between-l1-cache-and-l2-cache)
+  - [How does a cache memory differ from registers?](https://www.quora.com/How-does-a-cache-memory-differ-from-registers)
+
+**Hard Drive**
+  - [SSD VS HDD](https://www.storagereview.com/ssd_vs_hdd)
+  - [SSD vs. HDD: What's the Difference?](https://www.pcmag.com/article/297758/ssd-vs-hdd-whats-the-difference)
+
+**Serial ATA**
+  - Serial ATA is a computer bus interface that connects host bus adapters to mass storage devices such as hard disk drives, optical drives, and solid-state drives. Serial ATA succeeded the earlier Parallel ATA standard to become the predominant interface for storage devices. 
+
+  - [SATA VS PATA](https://www.computerhope.com/issues/ch001325.htm)
+  
+  ![SATA VS PATA DIAGRAM](img/sata.jpg)
+
+  ![SATA VS PATA DIAGRAM](img/sata3large.jpg)
 
 
