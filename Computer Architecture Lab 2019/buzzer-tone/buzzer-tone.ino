@@ -1,12 +1,10 @@
 void setup() {
-  // put your setup code here, to run once:
   for(int counter=0; counter<3; counter++){
     play();
   }
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
 }
 
 int play() {
@@ -52,7 +50,6 @@ int play() {
   
   tone(8, 262, 500);
   delay(500* 1.30);  
-
   return 0;
-  
+
 }

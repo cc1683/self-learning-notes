@@ -139,4 +139,16 @@ A GPU is a specialized electronic circuit designed to rapidly manipulate and alt
 
   ![SATA VS PATA DIAGRAM](img/sata3large.jpg)
 
+## Part 4: Arduino
+
+- [Download Arduino IDE](https://www.arduino.cc/en/main/software)
+- Finding com port number
+  - Go to **Device manager**
+  - Navigate to **Ports(COM & LPT)**
+
+  ![USB Serial Port](img/ports.png)
+
+- Setup Arduino IDE
+  - Go to **Tools** menu and select correct **Board** and **Port**
+  
 
