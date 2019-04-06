@@ -151,4 +151,13 @@ A GPU is a specialized electronic circuit designed to rapidly manipulate and alt
 - Setup Arduino IDE
   - Go to **Tools** menu and select correct **Board** and **Port**
   
+- Pulse Width Modulation (PWM)
+  - As microcontroller is purely digital, a technique called PWM could simulate the functions of an analog signal by having the capabilities of producing varying output, i.e. 2.3V or 3.8V.
 
+  - PWM produces the varying analog values by changing the width of the digital pulse on time which is repeated at a very fast rate. The result is a steady voltage between 0 - 5V. 
+
+  - There are dedicated digital pins on the Arduino that are capable of producing analog output through PWM. On the Nano and UNO, these pins are **3, 5, 6, 9, 10, 11**
+
+  - The digital pulse on time in PWM is set by a value of between 0 to 255 representing an analog voltage output of 0 to 5V.
+
+  - Example if Digital data = 128 Vout = 128 * 0.01956 = 2.5088V.
