@@ -146,7 +146,7 @@ A GPU is a specialized electronic circuit designed to rapidly manipulate and alt
   - Go to **Device manager**
   - Navigate to **Ports(COM & LPT)**
 
-  ![USB Serial Port](img/ports.png)
+  ![USB Serial Port](img/ports.PNG)
 
 - Setup Arduino IDE
   - Go to **Tools** menu and select correct **Board** and **Port**
