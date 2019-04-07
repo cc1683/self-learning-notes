@@ -161,3 +161,9 @@ A GPU is a specialized electronic circuit designed to rapidly manipulate and alt
   - The digital pulse on time in PWM is set by a value of between 0 to 255 representing an analog voltage output of 0 to 5V.
 
   - Example if Digital data = 128 Vout = 128 * 0.01956 = 2.5088V.
+
+- As microcontrollers only work in digital, an **Analog to Digital Converter (ADC)** converts analog voltage signal to its corresponding digital values.
+
+- The analog input signal having a range of 0-5V returns a number between 0 -1023 as its digital representation.
+  - digital output = analog input / 0.0048
+  - analog input = digital output * 0.0048
