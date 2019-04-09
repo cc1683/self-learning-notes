@@ -8,4 +8,4 @@ References:
 
 Python exercises:
 - [53 Python Exercises and Questions for Beginners](https://programmingwithmosh.com/python/python-exercises-and-questions-for-beginners/)
-- [Pratice Python](https://www.practicepython.org/)
+- [Practice Python](https://www.practicepython.org/)
