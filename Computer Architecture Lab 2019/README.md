@@ -26,7 +26,7 @@
 
 - Arduino Nano
 
-  A rapid prototyping board that contains a microcontroller. Similar to a small computer, it can be programmed to control inputs and putputs peripheral devices.
+  A rapid prototyping board that contains a microcontroller. Similar to a small computer, it can be programmed to control inputs and outputs peripheral devices.
 
 - NodeMCU
 
@@ -88,6 +88,9 @@
 
 ![PC Hardware](img/pc-hardware.png)
 
+### Processor
+  - [Multicore Processing](https://insights.sei.cmu.edu/sei_blog/2017/08/multicore-processing.html)
+
 ### Bus
 ![Computer Bus](img/pci-diagram.gif)
 
@@ -107,6 +110,8 @@ Connect components to the computer's processor. Internal bus carries the data wi
 
 ### PCI
 PCI is the acronym for Peripheral Component Interconnect, it is a local computer bus to attaching hardware devices in computer. It  allows you to insert expansion cards into your computer. These can come in the form of sound cards, RAID cards, SSDs, graphics cards, Coprocessors, and several other functional computer parts. 
+  - [What is the difference between PCI and PCI Express](https://www.quora.com/What-is-the-difference-between-PCI-and-PCI-Express)
+  - [Why is serial data transmission is faster than parallel?](https://superuser.com/questions/602819/why-is-serial-data-transmission-faster-than-parallel)
 
 ### GPU
 A GPU is a specialized electronic circuit designed to rapidly manipulate and alter memory to accelerate the creation of images in a frame buffer intended for output to a display device. The GPU’s advanced capabilities were originally used primarily for 3D game rendering. But now those capabilities are being harnessed more broadly to accelerate computational workloads in areas such as financial modeling, cutting-edge scientific research and oil and gas exploration.
@@ -167,3 +172,6 @@ A GPU is a specialized electronic circuit designed to rapidly manipulate and alt
 - The analog input signal having a range of 0-5V returns a number between 0 -1023 as its digital representation.
   - digital output = analog input / 0.0048
   - analog input = digital output * 0.0048
+
+- Liquid Crystal Display (LCD)
+  - [ASCII to Hex Converter](https://www.rapidtables.com/convert/number/ascii-to-hex.html)
