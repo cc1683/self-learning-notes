@@ -107,11 +107,14 @@ Write a function called show_stars(rows). If rows is 5, it should print the foll
 def showPrime(num):
     primeList = []
     for i in range(2, num+1):
+        isPrime = True
         for j in range(2, i):
             if i % j == 0:
+                isPrime = False
                 break
-            else:
-                primeList.append(i)
-                break
+
+        if isPrime:
+            primeList.append(i)
     return primeList
+
 print(showPrime(20))
