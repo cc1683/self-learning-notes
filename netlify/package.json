@@ -1,0 +1,15 @@
+{
+  "name": "netlify",
+  "version": "1.0.0",
+  "description": "- Register a Netlify account from [here](https://app.netlify.com/signup)\r - cd into project directory and install Netlify cli \r   ```\r     npm i -g netlify-cli\r   ```\r - Check Netlify is been install\r   ```\r     netlify --help\r   ```\r - Create a netlify config file inside the project directory with the extension of **.toml**\r - Initial Netlify Dev\r   ```\r     netlify init\r   ```\r - To get the local dev\r   ```\r     netlify dev\r   ```\r - To get the remote dev\r   ```\r     netlify dev --live\r   ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "random-words": "^1.1.0"
+  }
+}
