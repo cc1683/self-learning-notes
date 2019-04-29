@@ -1,0 +1,27 @@
+.tweet{
+  border: 2px solid #000000;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 2rem 2rem;
+  padding: 1rem 1rem;
+}
+
+.positive{
+  border: none;
+  padding: 0.5em;
+  background: green;
+  color: white;
+  margin: 0.5em;
+}
+
+.negative{
+  border: none;
+  padding: 0.5em;
+  background: red;
+  color: white;
+  margin: 0.5em;
+}
+
+.red-text {
+  color: red;
+  font-size: 20px;
+}
