@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>CSS Flexbox</title>
+</head>
+<body>
+
+  <div class="parent" id="parent-container">
+    <div class="child1" id="child1"><h4>Hello World</h4></div>
+    <div class="child2" id="child2"><h4>Hello Sky</h4></div>
+    <div class="child3" id="child3"><h4>Hello Earth</h4></div>
+    <div class="child4" id="child4"><h4>Hello Sea</h4></div>
+  </div>
+
+  <div class="button-container">
+    <p>Flex direction</p>
+    <button class="btn" onclick="flexRow()">row</button>
+    <button class="btn" onclick="flexColumn()">column</button>
+
+    <div style="margin-top: 20px">
+      <p>Justify content</p>
+      <button class="btn" onclick="flexStart()">flex-start</button>
+      <button class="btn" onclick="center()">center</button>
+      <button class="btn" onclick="flexEnd()">flex-end</button>
+      <button class="btn" onclick="spaceBetween()">space between</button>
+      <button class="btn" onclick="spaceEvenly()">space evenly</button>
+    </div>
+
+    <div style="margin-top: 20px">
+      <p>Align item</p>
+      <button class="btn" onclick="alignStart()">flex-start</button>
+      <button class="btn" onclick="alignCenter()">center</button>
+      <button class="btn" onclick="alignEnd()">flex-end</button>
+    </div>
+  </div>
+  
+  <div class="reload-container">
+    <button onclick="location.reload()" class="btn">Reset</button>
+  </div>
+  
+  <script src="main.js"></script>
+</body>
+</html>
