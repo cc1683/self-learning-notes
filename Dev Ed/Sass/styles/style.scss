@@ -1,0 +1,19 @@
+
+@import './variables';
+// import from seperate files
+@import './header';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contact {
+  // @extend header;
+  @include flexCenter(brown);
+
+  button {
+    @include button();
+  }
+}

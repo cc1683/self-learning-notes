@@ -1,0 +1,33 @@
+// Like a function in JavaScript
+@mixin flexCenter($background) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: $background;
+}
+
+@mixin button {
+  background-color: $primaryBtn;
+  color: $textColor;
+  border: none;
+  padding: 0.8rem 2rem;
+  margin: 1rem;
+}
+
+
+
+header {
+  font-family: $font;
+
+  @include flexCenter(blanchedalmond);
+
+  button {
+
+    @include button();
+
+    &:hover {
+      background-color: rgba(255, 0, 0, 0.842)
+    }
+  }
+}
