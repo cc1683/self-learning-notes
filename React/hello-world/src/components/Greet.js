@@ -6,8 +6,24 @@ import React from 'react'
 
 //! arrow function
 
-const Greet  = () => {
-  return <h1>Hello Matthew</h1>
-}
+// const Greet  = ({ age, job }) => {
+//   return(
+//     <div>
+//       <h1>Hello Matthew</h1>
+//       <p>I am { age } years old</p>
+//       <p>My job is { job }</p>
+//     </div>
+//   )
+// }
 
+const Greet  = (props) => {
+  return(
+    <div>
+      <h1>Hello Matthew</h1>
+      <p>{ props.children }</p>
+      <p>I am { props.age } years old</p>
+      <p>My job is { props.job }</p>
+    </div>
+  )
+}
 export default Greet;
